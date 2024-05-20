@@ -1,0 +1,14 @@
+<!ELEMENT territory (row+, territorySizeX, territorySizeY, monkPositionX, monkPositionY, monkDirection)>
+
+<!ELEMENT territorySizeX (#PCDATA)>
+<!ELEMENT territorySizeY (#PCDATA)>
+
+<!ELEMENT row (tile+)>
+<!ELEMENT tile (xPos, yPos, content)>
+<!ELEMENT xPos (#PCDATA)>
+<!ELEMENT yPos (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+
+<!ELEMENT monkPositionX (#PCDATA)>
+<!ELEMENT monkPositionY (#PCDATA)>
+<!ELEMENT monkDirection (#PCDATA)>

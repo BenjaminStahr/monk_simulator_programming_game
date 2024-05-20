@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaProjekt:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="JavaProjekt.jar">
+      <element id="module-output" name="BenjaminStahrsMonkSimulator" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/derby.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
